@@ -16,13 +16,12 @@ import time
 import json
 from os import environ
 
-environ['GOOGLE_APPLICATION_CREDENTIALS']="/home/rutvik/Downloads/GPE-WATER-TESTDEV-a4215f57a6e5.json"
 
 
 ####Credentials for using the google cloud API
 
-PROJECT_ID="gpe-water-testdev"
-TOPIC = "test"
+PROJECT_ID=""
+TOPIC = ""
 
 
 publisher = pubsub_v1.PublisherClient()
